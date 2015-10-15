@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
 
 /* GET About page */
 router.get('/about', function(req, res, next) {
-	res.render('about', { title: 'About', message: 'All about me.'});
+	res.render('about', { title: 'About Me', message: 'Coder  Developer  Designer  Entrepreneur'});
 });
 
 /* GET Projects page */
