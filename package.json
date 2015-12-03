@@ -6,6 +6,7 @@
     "start": "node server/server.js"
   },
   "dependencies": {
+	"bower": "1.6.5",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "~1.13.2",
     "connect-flash": "^0.1.1",
@@ -19,5 +20,10 @@
     "passport": "^0.3.0",
     "passport-local": "^1.0.0",
     "serve-favicon": "~2.3.0"
-  }
+  },
+	"scripts": {
+	"start": "node index.js",
+	"postinstall": "bower install"
+	}
+	
 }
